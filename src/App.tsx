@@ -9,6 +9,8 @@ function App() {
   const [model, setModel] = useState<TraceModel | null>(null);
   const [selectedEvent, setSelectedEvent] = useState<TraceEvent | null>(null);
 
+
+
   return (
     <div className="app-container">
       <header className="app-header">
