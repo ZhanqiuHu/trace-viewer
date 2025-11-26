@@ -13,11 +13,13 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <h1>Trace Viewer</h1>
-        {model && (
-          <button onClick={() => { setModel(null); setSelectedEvent(null); }} className="reset-button">
-            Load New Trace
-          </button>
-        )}
+        <div className="header-controls">
+          {model && (
+            <button onClick={() => { setModel(null); setSelectedEvent(null); }} className="reset-button">
+              Load New Trace
+            </button>
+          )}
+        </div>
       </header>
 
       <main className="app-content">
