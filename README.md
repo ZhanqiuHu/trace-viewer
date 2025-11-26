@@ -2,7 +2,7 @@
 
 A high-performance, Perfetto-like trace viewer built with React, TypeScript, and HTML5 Canvas.
 
-![Demo Preview](docs/demo.webp)
+![Demo Preview](docs/demo.gif)
 
 ## Features
 
